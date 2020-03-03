@@ -1,6 +1,5 @@
 <div>
-    <ul *ngFor="let todo of todos">
-        <li> {{ todo.title }} </li>
-    </ul>
-
+    <app-to-do-item *ngFor="let todo of todos" [todo]="todo">
+        
+    </app-to-do-item>
 </div>
