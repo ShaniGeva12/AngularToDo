@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { ThrowStmt } from '@angular/compiler';
 import { Todo } from '../models/Todo';
 import { Observable } from 'rxjs';
 
@@ -33,7 +32,7 @@ export class TodoService {
         id: 2,
         title: 'Todo Two',
         completed: true
-      } , 
+      } ,
 
       {
         id: 3,
